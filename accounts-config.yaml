@@ -1,0 +1,17 @@
+mandatoryAccounts:
+  - name: Management
+    description: Management account
+    email: management-placeholder@example.com
+    organizationalUnit: Root
+
+  - name: LogArchive
+    description: Central log archive account
+    email: logarchive-placeholder@example.com
+    organizationalUnit: Security
+
+  - name: Audit
+    description: Security audit account
+    email: audit-placeholder@example.com
+    organizationalUnit: Security
+
+workloadAccounts: []

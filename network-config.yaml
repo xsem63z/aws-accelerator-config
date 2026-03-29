@@ -1,0 +1,15 @@
+defaultVpc:
+  delete: true
+  excludeAccounts: []
+
+transitGateways: []
+
+customerGateways: []
+
+directConnectGateways: []
+
+prefixLists: []
+
+endpointPolicies: []
+
+vpcs: []

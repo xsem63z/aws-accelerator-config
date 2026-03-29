@@ -1,0 +1,26 @@
+centralSecurityServices:
+  delegatedAdminAccount: Audit
+
+accessAnalyzer:
+  enable: false
+
+guardduty:
+  enable: false
+
+securityHub:
+  enable: false
+
+macie:
+  enable: false
+
+ebsDefaultVolumeEncryption:
+  enable: true
+  excludeRegions: []
+
+s3PublicAccessBlock:
+  enable: true
+
+scps: []
+
+awsConfig:
+  enableConfigurationRecorder: false

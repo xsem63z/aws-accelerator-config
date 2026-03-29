@@ -1,0 +1,12 @@
+policySets: []
+
+roleSets: []
+
+groupSets: []
+
+userSets: []
+
+identityCenter:
+  name: IdentityCenter
+  permissionSets: []
+  assignments: []

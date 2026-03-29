@@ -1,0 +1,14 @@
+homeRegion: us-east-1
+
+enabledRegions:
+  - us-east-1
+
+managementAccountAccessRole: AWSControlTowerExecution
+
+terminationProtection: true
+
+controlTower:
+  enable: true
+
+logging:
+  account: LogArchive

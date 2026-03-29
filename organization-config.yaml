@@ -1,0 +1,12 @@
+enable: true
+
+organizationalUnits:
+  - name: Security
+  - name: Infrastructure
+  - name: Workloads
+
+serviceControlPolicies: []
+
+taggingPolicies: []
+
+backupPolicies: []
