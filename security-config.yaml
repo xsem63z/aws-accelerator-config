@@ -36,11 +36,14 @@ centralSecurityServices:
   securityHub:
     enabled: false
     enableFoundationalSecurityBestPractices: false
-  guardDuty:
+    standards: 
+  guardduty:
     enabled: false
     enableS3Protection: false
     enableEksProtection: false
   ssmAutomation:
+
+
 
 
 # securityHub:
