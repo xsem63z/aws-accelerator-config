@@ -5,7 +5,7 @@ guardduty:
   enable: false
 
 cloudWatch: 
-  alarmSets:
+  alarmSets: []
     # - alarms:
     #     - alarmDescription: {}
     #       alarmName: 
