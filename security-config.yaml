@@ -40,15 +40,26 @@ iamPasswordPolicy:
   # requireNumbers: true
   # minimumPasswordLength: 14
   # passwordReusePrevention: 24
-  # maxPasswordAge: 90
 
-securityHub:
-  enable: false
-  logging:
-    cloudWatch:
-      enable: false # Enables logging to CloudWatch
-      logGroupName: "/aws/security-hub/events" # The specific log group name
-      # logLevel: MEDIUM # An example of an optional property
+
+centralSecurityServices:
+  delegatedAdminAccount: Audit # Or another account name
+  securityHub:
+    enabled: false
+    enableFoundationalSecurityBestPractices: false
+  guardDuty:
+    enabled: false
+    enableS3Protection: false
+    enableEksProtection: false
+
+
+# securityHub:
+#   enable: false
+#   logging:
+#     cloudWatch:
+#       enable: false # Enables logging to CloudWatch
+#       logGroupName: "/aws/security-hub/events" # The specific log group name
+#       # logLevel: MEDIUM # An example of an optional property
 
 macie:
   enable: false
