@@ -7,6 +7,9 @@ accessAnalyzer:
 guardduty:
   enable: false
 
+enableCloudWatchLogs:
+  enable: false
+
 securityHub:
   enable: false
   logging:
