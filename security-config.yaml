@@ -62,7 +62,7 @@ centralSecurityServices:
 snsTopics:
   - name: Security
     emailAddresses:
-      - SecurityNotifications@example.com
+      - scottemalone@gmail.com
 
   # Configuration for AWS Security Hub
   securityHub:
