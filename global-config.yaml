@@ -35,3 +35,20 @@ logging:
       - enabled: true
         expirationDays: 365 # Logs expire after 365 days
         transitionToInfrequentAccess: 30 # Transition to IA after 30 days
+  account: LogArchive
+  centralizedLoggingRegion: "us-east-1" # Region where the central logging bucket is deployed
+  cloudtrail:
+    enable: false
+    organizationTrail: false
+    # organizationTrailSettings:
+    #   multiRegionTrail: true # Deploys a trail to all regions
+    #   globalServiceEvents: true # Includes global service events (e.g., IAM, Route 53)
+      # Optional settings:
+      # managementEvents: true
+      # lambdaDataEvents: true
+      # s3DataEvents: false
+      # includeS3BucketAccessLogs: false
+      # enableLogFileValidation: true
+      # enableAwsServiceCatalogProducts: true
+      # enableCloudWatchLogs: true
+      # apiCallRateInsight: false
