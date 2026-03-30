@@ -28,7 +28,7 @@ cloudWatch:
     #       metricNamespace: 
     #       metricValue: 
 
-# iamPasswordPolicy: []
+iamPasswordPolicy: []
 
 
 centralSecurityServices:
