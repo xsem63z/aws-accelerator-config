@@ -60,9 +60,10 @@ centralSecurityServices:
       enable: false
 
 snsTopics:
-  - name: Security
-    emailAddresses:
-      - scottemalone@gmail.com
+  topics:
+    - name: Security
+      emailAddresses:
+        - scottemalone@gmail.com
 
   # Configuration for AWS Security Hub
   securityHub:
