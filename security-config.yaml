@@ -68,7 +68,7 @@ centralSecurityServices:
     enable: false
     # Optionally specify the frequency for publishing policy findings
     findingPublishingFrequency: "FIFTEEN_MINUTES"
-    publishSensitiveDataFindings:
+    publishSensitiveDataFindings: false
 
   # Configuration for AWS Audit Manager
   auditManager:
