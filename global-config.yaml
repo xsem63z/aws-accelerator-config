@@ -11,7 +11,7 @@ cloudwatchLogRetentionInDays: 365
 terminationProtection: true
 
 controlTower:
-  enable: true
+  enable: false
 
 # logging:
 #   account: LogArchive
