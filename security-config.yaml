@@ -38,8 +38,6 @@ iamPasswordPolicy:
   # requireLowercaseCharacters: true
   # requireSymbols: true
   # requireNumbers: true
-  # minimumPasswordLength: 14
-  # passwordReusePrevention: 24
 
 
 centralSecurityServices:
