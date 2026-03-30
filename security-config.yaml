@@ -42,8 +42,8 @@ centralSecurityServices:
     enableInAllRegions: false 
     # Optionally specify the SNS topic for notifications
     snsTopicName: "Security"
-    exportConfiguration:
-    s3Protection:
+    exportConfiguration: []
+    s3Protection: []
 
   # Configuration for AWS Security Hub
   securityHub:
