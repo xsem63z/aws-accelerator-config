@@ -89,7 +89,7 @@ centralSecurityServices:
     enable: false
     # Optionally specify the SNS topic for notifications
     snsTopicName: "Security"
-    defaultReportsConfiguration:
+    # defaultReportsConfiguration:
 
   # Configuration for Amazon S3 Public Access Block
   s3PublicAccessBlock:
