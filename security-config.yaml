@@ -146,7 +146,7 @@ s3PublicAccessBlock:
 scps: []
 
 awsConfig:
-  enableConfigurationRecorder: false# Enables the AWS Config recorder in all governed accounts/regions
+  enableConfigurationRecorder: false # Enables the AWS Config recorder in all governed accounts/regions
   enableDeliveryChannel: false        # Enables the delivery channel to an S3 bucket
   overrideExisting: false            # Set to true only if you need to override existing config recorder settings
   ruleSets:
@@ -164,3 +164,4 @@ awsConfig:
       maximumExecutionFrequency: "TWENTY_FOUR_HOURS" # How often the rule runs evaluations
       configurationChanges: true # Run the rule on configuration changes
       periodic: false
+      rules: []
