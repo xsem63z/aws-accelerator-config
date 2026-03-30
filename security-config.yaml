@@ -77,7 +77,7 @@ snsTopics:
           organizationalUnits:
             - "Root"
           enable: false
-        enable: false
+        enable: true
         # Optionally disable specific controls
         # controlsToDisable:
         #   - "ControlId1"
