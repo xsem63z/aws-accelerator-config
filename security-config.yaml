@@ -32,12 +32,6 @@ cloudWatch:
   #         metricValue: 
 
 iamPasswordPolicy:
-  # allowUsersToChangePassword: true
-  # hardExpiry: false
-  # requireUppercaseCharacters: true
-  # requireLowercaseCharacters: true
-  # requireSymbols: true
-  # requireNumbers: true
 
 
 centralSecurityServices:
