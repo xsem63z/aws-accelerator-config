@@ -39,6 +39,11 @@ iamPasswordPolicy:
   passwordReusePrevention: 24
   maxPasswordAge: 90
 
+snsTopics:
+  topics:
+    - name: Security
+      emailAddresses:
+        - scottemalone@gmail.com
 
 centralSecurityServices:
   # The account that will be the delegated administrator for security services
@@ -58,12 +63,6 @@ centralSecurityServices:
       overrideExisting: false
     s3Protection:
       enable: false
-
-snsTopics:
-  topics:
-    - name: Security
-      emailAddresses:
-        - scottemalone@gmail.com
 
   # Configuration for AWS Security Hub
   securityHub:
