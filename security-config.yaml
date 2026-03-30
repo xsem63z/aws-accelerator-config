@@ -42,6 +42,7 @@ centralSecurityServices:
     enableInAllRegions: false 
     # Optionally specify the SNS topic for notifications
     snsTopicName: "Security"
+    exportConfiguration:
 
   # Configuration for AWS Security Hub
   securityHub:
@@ -56,6 +57,7 @@ centralSecurityServices:
           organizationalUnits:
             - "Root"
           enable: false
+        enable: false
         # Optionally disable specific controls
         # controlsToDisable:
         #   - "ControlId1"
@@ -65,12 +67,14 @@ centralSecurityServices:
     enable: false
     # Optionally specify the frequency for publishing policy findings
     findingPublishingFrequency: "FIFTEEN_MINUTES"
+    publishSensitiveDataFindings:
 
   # Configuration for AWS Audit Manager
   auditManager:
     enable: false
     # Optionally specify the SNS topic for notifications
     snsTopicName: "Security"
+    defaultReportsConfiguration:
 
   # Configuration for Amazon S3 Public Access Block
   s3PublicAccessBlock:
