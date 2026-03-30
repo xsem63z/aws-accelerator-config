@@ -19,7 +19,7 @@ cloudWatch:
     #       treatMissingData: 
     #   deploymentTargets:
         
-  metricSets:
+  metricSets: []
     # - metrics:
     #     - filterName: 
     #       filterPattern: 
