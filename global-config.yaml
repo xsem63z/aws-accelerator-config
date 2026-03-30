@@ -13,5 +13,25 @@ terminationProtection: true
 controlTower:
   enable: true
 
+# logging:
+#   account: LogArchive
+
+
 logging:
-  account: LogArchive
+  # ... other logging configurations
+  sessionManager:
+    # Indicates whether sending Session Manager logs to S3 is enabled
+    # When enabled, logs are sent to the Central logs bucket in the Log Archive account
+    sendToS3: true
+    # Indicates whether sending Session Manager logs to CloudWatch Logs is enabled
+    sendToCloudWatchLogs: true
+    # List of AWS Account names to be excluded from this configuration
+    excludeAccounts:
+      - "Management"
+    # List of AWS Region names to be excluded from this configuration
+    excludeRegions: []
+    # S3 Lifecycle rule for log storage (optional)
+    lifecycleRules:
+      - enabled: true
+        expirationDays: 365 # Logs expire after 365 days
+        transitionToInfrequentAccess: 30 # Transition to IA after 30 days
