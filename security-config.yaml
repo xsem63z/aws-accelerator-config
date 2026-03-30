@@ -91,6 +91,7 @@ centralSecurityServices:
     snsTopicName: "Security"
     defaultReportsConfiguration:
        enable: false
+       destinationType: S3
 
   # Configuration for Amazon S3 Public Access Block
   s3PublicAccessBlock:
