@@ -91,10 +91,13 @@ centralSecurityServices:
     excludeRegions: []
 
   # Configuration for AWS Systems Manager (SSM) Automation documents
-  ssmAutomation:
+  ssmAutomation: 
     # Example to create an SSM document named "SSM-ELB-Enable-Logging"
     # and share with the Root organizational unit
     # SSM documents must be placed in the config repo
+
+    documentSets: []
+
     documents:
       - name: "SSM-ELB-Enable-Logging"
         description: "Enable ELB logging"
