@@ -47,7 +47,8 @@ centralSecurityServices:
       destinationType: S3
       exportFrequency: FIFTEEN_MINUTES
       overrideExisting: true
-    s3Protection: []
+    s3Protection:
+      enable: true
 
   # Configuration for AWS Security Hub
   securityHub:
