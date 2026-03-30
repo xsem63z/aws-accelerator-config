@@ -42,6 +42,7 @@ centralSecurityServices:
     enableS3Protection: false
     enableEksProtection: false
   ssmAutomation:
+  macie:
 
 
 
