@@ -4,7 +4,7 @@ accessAnalyzer:
 guardduty:
   enable: false
 
-cloudWatch:
+cloudWatch: []ßsß
   # alarmSets:
   #   - alarms:
   #       - alarmDescription: 
@@ -43,6 +43,7 @@ centralSecurityServices:
     # Optionally specify the SNS topic for notifications
     snsTopicName: "Security"
     exportConfiguration:
+    s3Protection:
 
   # Configuration for AWS Security Hub
   securityHub:
