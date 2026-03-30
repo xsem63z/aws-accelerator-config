@@ -6,12 +6,12 @@ mandatoryAccounts:
 
   - name: LogArchive
     description: Central log archive account
-    email: scottemalone@gmail.com
+    email: erikcmalone@gmail.com
     organizationalUnit: Security
 
   - name: Audit
     description: Security audit account
-    email: scottemalone@gmail.com
+    email: mikeamalone@gmail.com
     organizationalUnit: Security
 
 workloadAccounts: []
