@@ -137,11 +137,11 @@ macie:
   enable: false
 
 ebsDefaultVolumeEncryption:
-  enable: true
+  enable: false
   excludeRegions: []
 
 s3PublicAccessBlock:
-  enable: true
+  enable: false
 
 scps: []
 
