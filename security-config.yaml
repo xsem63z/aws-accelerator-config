@@ -55,14 +55,19 @@ centralSecurityServices:
       enable: false
       destinationType: S3
       exportFrequency: FIFTEEN_MINUTES
-      overrideExisting: true
+      overrideExisting: false
     s3Protection:
-      enable: true
+      enable: false
+
+snsTopics:
+  - name: Security
+    emailAddresses:
+      - SecurityNotifications@example.com
 
   # Configuration for AWS Security Hub
   securityHub:
     enable: false
-    regionAggregation: true # Aggregate findings to the home region
+    regionAggregation: false # Aggregate findings to the home region
     snsTopicName: "Security"
     notificationLevel: HIGH
     # Define standards to enable (e.g., AWS Foundational Security Best Practices)
