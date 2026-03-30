@@ -4,29 +4,29 @@ accessAnalyzer:
 guardduty:
   enable: false
 
-cloudWatch: {}
-  # alarmSets:
-  #   - alarms:
-  #       - alarmDescription: 
-  #         alarmName: 
-  #         comparisonOperator: 
-  #         evaluationPeriods: 
-  #         metricName: 
-  #         namespace: 
-  #         period: 
-  #         statistic: 
-  #         threshold: 
-  #         treatMissingData: 
-  #     deploymentTargets:
+cloudWatch: 
+  alarmSets:
+    - alarms:
+        - alarmDescription: 
+          alarmName: 
+          comparisonOperator: 
+          evaluationPeriods: 
+          metricName: 
+          namespace: 
+          period: 
+          statistic: 
+          threshold: 
+          treatMissingData: 
+      deploymentTargets:
         
-  # metricSets:
-  #   - metrics:
-  #       - filterName: 
-  #         filterPattern: 
-  #         logGroupName: 
-  #         metricName: 
-  #         metricNamespace: 
-  #         metricValue: 
+  metricSets:
+    - metrics:
+        - filterName: 
+          filterPattern: 
+          logGroupName: 
+          metricName: 
+          metricNamespace: 
+          metricValue: 
 
 iamPasswordPolicy:
 
