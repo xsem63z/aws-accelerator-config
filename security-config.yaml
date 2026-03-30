@@ -10,7 +10,7 @@ guardduty:
 securityHub:
   enable: false
   logging:
-    cloudwatch:
+    cloudWatch:
       enable: false # Enables logging to CloudWatch
       logGroupName: "/aws/security-hub/events" # The specific log group name
       # logLevel: MEDIUM # An example of an optional property
