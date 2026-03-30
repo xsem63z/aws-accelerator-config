@@ -6,7 +6,7 @@ mandatoryAccounts:
 
   - name: LogArchive
     description: Central log archive account
-    email: logmalone@gmail.com
+    email: logemalone@gmail.com
     organizationalUnit: Security
 
   - name: Audit
