@@ -5,6 +5,9 @@ enabledRegions:
 
 managementAccountAccessRole: AWSControlTowerExecution
 
+# Global CloudWatch Logs retention in days configuration
+cloudwatchLogRetentionInDays: 365
+
 terminationProtection: true
 
 controlTower:
