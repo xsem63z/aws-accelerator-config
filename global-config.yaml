@@ -16,7 +16,6 @@ controlTower:
 # logging:
 #   account: LogArchive
 
-
 logging:
   # ... other logging configurations
   sessionManager:
@@ -52,3 +51,12 @@ logging:
       # enableAwsServiceCatalogProducts: true
       # enableCloudWatchLogs: true
       # apiCallRateInsight: false
+
+snsTopics:
+  deploymentTargets:
+    organizationalUnits:
+      - Root
+  topics:
+    - name: Security
+      emailAddresses:
+        - SecurityNotifications@example.com
