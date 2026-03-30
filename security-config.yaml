@@ -4,7 +4,7 @@ accessAnalyzer:
 guardduty:
   enable: false
 
-cloudWatch: []
+cloudWatch: {}
   # alarmSets:
   #   - alarms:
   #       - alarmDescription: 
