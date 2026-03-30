@@ -11,7 +11,7 @@ mandatoryAccounts:
 
   - name: Audit
     description: Security audit account
-    email: mikeamalone@gmail.com
+    email: scottemalone@gmail.com
     organizationalUnit: Security
 
 workloadAccounts: []
