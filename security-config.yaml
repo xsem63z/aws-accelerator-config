@@ -41,8 +41,11 @@ centralSecurityServices:
     enabled: false
     enableS3Protection: false
     enableEksProtection: false
+    exportConfiguration:
   ssmAutomation:
   macie:
+  s3PublicAccessBlock:
+
 
 
 
